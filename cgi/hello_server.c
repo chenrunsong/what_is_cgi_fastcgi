@@ -54,7 +54,7 @@ int main()
          */
         method = strtok(req, delim);         // GET
         p = strtok(NULL, delim);             // /cgi-bin/get_user.php?id=1 
-        filename = strtok(p, "?");           // /cgi-bin/get_user
+        filename = strtok(p, "?");           // /cgi-bin/get_user.php
         query_string = strtok(NULL, "?");    // id=1
 
         /**
